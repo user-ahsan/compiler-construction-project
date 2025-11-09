@@ -1,9 +1,3 @@
-%{
-/*
- * EaseCode Lexical Analyzer (Scanner)
- * Modified to meet output format: Line <n>: <TOKEN_TYPE> → <lexeme>
- * Identifier regex updated to match documentation.
- */
 
 #include <stdio.h>
 #include <stdlib.h>
