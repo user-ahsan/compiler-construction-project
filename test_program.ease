@@ -1,0 +1,48 @@
+start {
+    number x = 10;
+    number y = 5;
+    decimal pi = 3.14;
+    decimal result = 0.0;
+    text name = "Ahsan";
+    text message = "Hello World";
+    text greeting = "Welcome to EaseCode";
+    
+    number isTrue = yes;
+    number isFalse = no;
+    
+    result = x + y;
+    result = x - y;
+    result = x * y;
+    result = x / y;
+    
+    show "Enter a number:";
+    get x;
+    show "You entered:";
+    show x;
+    
+    check (x) {
+        show "Condition is true";
+        show message;
+    }
+    otherwise {
+        show "Condition is false";
+        show greeting;
+    }
+    
+    number counter = 0;
+    loop (counter) {
+        show counter;
+        counter = counter + 1;
+    }
+    
+    nothing displayMessage {
+        show "This is a function";
+        show name;
+    }
+    
+    giveback 0;
+    
+    new numberArray;
+    
+    finish;
+}
